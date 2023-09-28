@@ -1,0 +1,56 @@
+body {
+    font-family: 'Space Mono', monospace;
+    background: radial-gradient(at bottom center, #EC8897, #0E1365);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fourzerofour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.four {
+    font-size: 200px;
+}
+
+.planet0 {
+    width: 200px;
+    height: auto;
+    transition: transform 0.2s;
+}
+
+.planet0:hover {
+    transform: scale(1.2);
+}
+
+.gh_link {
+    transition: transform 0.2s;
+}
+
+.small_text {
+    font-size: 30px;
+    text-align: center;
+    margin-top: -90px;
+}
+
+.reactor {
+    font-size: 30px;
+    text-decoration: none;
+}
