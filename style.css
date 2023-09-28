@@ -33,15 +33,12 @@ html, body {
 .planet0 {
     width: 200px;
     height: auto;
-    transition: transform 0.2s;
+    transition: transform 1.0s;
+    transform: scale(2.7);
 }
 
 .planet0:hover {
-    transform: scale(1.2);
-}
-
-.gh_link {
-    transition: transform 0.2s;
+   transform: scale(1.0);
 }
 
 .small_text {
