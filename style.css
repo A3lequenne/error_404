@@ -37,6 +37,9 @@ body {
     text-align: center;
 }
 
+.gh_link {
+}
+
 @media (max-width: 800px), (max-height: 799px){
     .planet0 {
         width: 150px;
