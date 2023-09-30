@@ -23,5 +23,17 @@
             </section>
         </section>
     </section>
+    <script>
+        const planet0 = document.querySelector(".planet0");
+
+
+        planet0.addEventListener("touchstart", function() {
+        planet0.classList.add("planet0-active");
+
+        setTimeout(function() {
+                planet0.classList.remove("planet0-active");
+            }, 2000);
+        });
+    </script>
 </body>    
 </html>
